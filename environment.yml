@@ -1,0 +1,11 @@
+name: deep image prior
+channels:
+- pytorch
+dependencies:
+- jupyter
+- nb_conda
+- numpy
+- pytorch=0.4
+- matplotlib
+- scikit-image
+- torchvision
