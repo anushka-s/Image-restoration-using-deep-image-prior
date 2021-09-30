@@ -10,16 +10,14 @@ class Matcher:
 
         if how in all_features.keys():
             self.get_statistics = all_features[how]
-        elif:
+        else:
             assert False
         pass
 
         if loss in all_losses.keys():
             self.loss = all_losses[loss]
-        elif:
+        else:
             assert False
-
-        self.map_index = map_index
         self.method = 'match'
 
 
