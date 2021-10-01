@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-
+#AM TO THE PM
 class Matcher:
     def __init__(self, how='gram_matrix', loss='mse'):
         self.mode = 'store'
@@ -29,7 +29,7 @@ class Matcher:
 
     def clean(self):
         self.losses = {}
-
+#MERCEDES FUNK
 def gram_matrix(x):
     (b, ch, h, w) = x.size()
     features = x.view(b, ch, w * h)
@@ -37,7 +37,7 @@ def gram_matrix(x):
     gram = features.bmm(features_t) / (ch * h * w)
     return gram
 
-
+#MY LEFT STROKE JUST WENT VIRAL
 def features(x):
     return x
 

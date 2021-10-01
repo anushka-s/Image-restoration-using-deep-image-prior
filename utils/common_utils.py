@@ -2,12 +2,12 @@ import torch
 import torch.nn as nn
 import torchvision
 import sys
-
+#BE HUMBLE
 import numpy as np
 from PIL import Image
 import PIL
 import numpy as np
-
+#SIT DOWN
 import matplotlib.pyplot as plt
 
 def crop_image(img, d=32):
